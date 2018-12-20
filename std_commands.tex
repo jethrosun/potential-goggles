@@ -27,58 +27,6 @@
 % ???
 %-- The bit that need to paper.tex right away:
 % =========================================================
-
-%-- Necessary packages... To enable std_commands
-\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
-\usepackage{array}
-\usepackage{ifthen}
-\usepackage{xspace}
-\usepackage{enumitem}
-\usepackage{cite}
-\usepackage[colorlinks=true,citecolor=Bittersweet,linkcolor=black]{hyperref}% violetred
-
-%-- To use booktabs...
-\usepackage{booktabs}
-\usepackage{rotating} % Rotate tables
-\usepackage{tabularx}
-\usepackage{multirow}
-\usepackage{chngpage}
-\usepackage{adjustbox}
-\usepackage[english]{babel}
-\usepackage{rotating} % Rotate tables
-\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
-\usepackage{graphicx}
-\usepackage[font={small,it}]{caption}
-\usepackage{subcaption}
-\usepackage{lscape}
-\usepackage{pifont}
-
-%-- 0 means no comments, and 1 o/w
-\newcommand{\showcomments}{0}
-
-%-- enable todo
-%\providecommand{\todo}[1]{\textcolor{red}{TODO: #1}\PackageWarning{TODO:}{#1!}}
-%\renewcommand{\todo}[1]{}   % enable it to supress TODO
-
-% ---------------------------------------------------
-
-%-- Save space...
-\usepackage[subtle]{savetrees}
-%\usepackage[moderate]{savetrees}
-%\usepackage[extreme]{savetrees}
-
-%-- Links... change ref link color
-\definecolor{blue1}{rgb}{0.01, 0.28, 1.0}
-\DeclareCaptionFont{blue}{\color{blue1}}
-\captionsetup[figure]{labelfont=blue}
-
-%-- Booktabs...
-\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
-\newcommand{\head}[1]{\textbf{#1}}
-\setlength{\extrarowheight}{4pt}
-\newcommand{\normal}[1]{\multicolumn{1}{l}{#1}}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %-- Macros... examples...
@@ -144,6 +92,14 @@
 \newcolumntype{L}{X}
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+%-- ????
+%\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+%\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+%\newcommand{\head}[1]{\textbf{#1}}
+%\setlength{\extrarowheight}{4pt}
+%\newcommand{\normal}[1]{\multicolumn{1}{l}{#1}}
+
+
 
 %-- To comment out a swatch of text, use \omitit{blah blah blah} or \eat{ xxx }
 \long\def\omitit#1{}
@@ -185,9 +141,9 @@ pages\end{pagelenenv}}
   \ifthenelse{\equal{\showcomments}{1}}{
 \outline{#1}}{}}
 
-\newcommand{\evan}[1]{
+\newcommand{\dave}[1]{
   \ifthenelse{\equal{\showcomments}{1}}{
-\todoA{Evan: #1}}{}}
+\todoA{Dave: #1}}{}}
 \newcommand{\raja}[1]{
   \ifthenelse{\equal{\showcomments}{1}}{
 \todoB{Raja: #1}}{}}
@@ -197,7 +153,6 @@ pages\end{pagelenenv}}
 \newcommand{\peter}[1]{
   \ifthenelse{\equal{\showcomments}{1}}{
 \todoD{Peter: #1}}{}}
-
 \newcommand{\jethro}[1]{
   \ifthenelse{\equal{\showcomments}{1}}{
 \todoE{Jethro: #1}}{}}
