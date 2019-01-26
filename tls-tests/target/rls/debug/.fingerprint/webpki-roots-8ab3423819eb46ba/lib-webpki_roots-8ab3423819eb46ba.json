@@ -1,0 +1,1 @@
+{"rustc":10613393867015524114,"features":"[]","target":12668714378338534467,"profile":13846881912122723292,"path":3222141890571398299,"deps":[["untrusted v0.6.2","untrusted",8499698403325688494],["webpki v0.19.1","webpki",10043939281278003957]],"local":[{"Precalculated":"0.16.0"}],"rustflags":["-Ctarget-cpu=native"],"edition":"Edition2018"}

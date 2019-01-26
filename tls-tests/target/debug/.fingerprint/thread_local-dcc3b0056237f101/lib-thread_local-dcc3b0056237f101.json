@@ -1,0 +1,1 @@
+{"rustc":10613393867015524114,"features":"[]","target":15287622993677008815,"profile":13846881912122723292,"path":12557554301348317543,"deps":[["lazy_static v1.2.0","lazy_static",8648660840863150928]],"local":[{"Precalculated":"0.3.6"}],"rustflags":["-C","target-cpu=native"],"edition":"Edition2015"}

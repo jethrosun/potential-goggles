@@ -1,0 +1,11 @@
+[package]
+name = "tls-tests"
+version = "0.1.0"
+authors = ["Jethro Shuwen Sun <jethro.s.sun@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rustls = ">= 0.15.0"
+webpki = "*"
+webpki-roots = "*"
+env_logger = "*"

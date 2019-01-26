@@ -1,0 +1,1 @@
+{"rustc":10613393867015524114,"features":"[]","target":5159657591580140866,"profile":11870183705523825133,"path":8947050299799707797,"deps":[["ring v0.14.3","ring",5229599902251534643],["untrusted v0.6.2","untrusted",15433639323321523139]],"local":[{"Precalculated":"0.5.0"}],"rustflags":["-C","target-cpu=native"],"edition":"Edition2018"}
