@@ -1,1 +1,0 @@
-{"rustc":10613393867015524114,"features":"[\"default\", \"libc\", \"use_std\"]","target":7909691370224454540,"profile":11870183705523825133,"path":10201077659720613359,"deps":[["cfg-if v0.1.6","cfg_if",18391450870378304501],["libc v0.2.48","libc",4314557281411280498]],"local":[{"Precalculated":"2.1.3"}],"rustflags":["-C","target-cpu=native"],"edition":"Edition2015"}

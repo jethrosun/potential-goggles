@@ -1,1 +1,0 @@
-{"rustc":10613393867015524114,"features":"[]","target":8929461428342892239,"profile":13846881912122723292,"path":16509855428782730082,"deps":[["byteorder v1.3.1","byteorder",13061726397017572113]],"local":[{"Precalculated":"0.10.1"}],"rustflags":["-Ctarget-cpu=native"],"edition":"Edition2015"}

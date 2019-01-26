@@ -1,1 +1,0 @@
-{"rustc":10613393867015524114,"features":"[]","target":2091077471250295209,"profile":11870183705523825133,"path":15987704867682487028,"deps":[["quick-error v1.2.2","quick_error",11535101779041143190]],"local":[{"Precalculated":"1.2.0"}],"rustflags":["-C","target-cpu=native"],"edition":"Edition2015"}
