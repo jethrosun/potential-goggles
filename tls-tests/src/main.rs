@@ -9,6 +9,7 @@ use rustls::Session;
 use webpki;
 use webpki_roots;
 
+/// Helper session start function for simple 0rtt client.
 fn start_session(config: &Arc<rustls::ClientConfig>, domain_name: &str) {
     let dns_name = webpki::DNSNameRef::try_from_ascii_str(domain_name).unwrap();
     let mut sess = rustls::ClientSession::new(config, dns_name);
